@@ -1,0 +1,113 @@
+@color_pending: #ffe2b7;
+@color_confirm: #bce8f7;
+@color_reject: #efc5cd;
+@color_cancel: #d3d3d3;
+
+@color_pending_strong: #ffcb70;
+@color_confirm_strong: #76ddf7;
+@color_reject_strong: #ef9391;
+@color_cancel_strong: darkgrey;
+
+select[name=filter_view] {
+  border: 4px solid @color_confirm_strong;
+  position: relative;
+  top: -4px;
+}
+input[name=booking_date] { line-height: 24px; }
+
+.wp-list-table {
+
+  #qrr_restaurant { width: 150px; }
+  #qrr_party { width: 40px; }
+  #qrr_status { width: 80px; }
+
+  /*
+  td.qrr_status_kk {
+
+    .status-pending,
+    .status-confirmed,
+    .status-rejected,
+    .status-cancelled {
+      display: inline-block;
+      padding: 5px 10px;
+      background: grey;
+    }
+
+    .status-pending { background: #fff100; }
+    .status-confirmed { background: greenyellow; }
+    .status-rejected { background: #ffaeae; }
+    .status-cancelled { background: #e0e0e0; }
+  }
+  */
+
+}
+
+.wp-list-table {
+  tr.type-qrr_booking{
+
+    &.status-pending th:first-child { border-left: 8px solid @color_pending_strong; }
+    &.status-qrr-confirmed th:first-child { border-left: 8px solid @color_confirm_strong; }
+    &.status-qrr-rejected th:first-child { border-left: 8px solid @color_reject_strong; }
+    &.status-qrr-cancelled th:first-child { border-left: 8px solid @color_cancel_strong; }
+
+    &.status-pending {
+      th, td { background: @color_pending; }
+    }
+    &.status-qrr-confirmed {
+      th, td { background: @color_confirm; }
+    }
+    &.status-qrr-rejected {
+      th, td { background: @color_reject; }
+    }
+    &.status-qrr-cancelled {
+      th, td { background: @color_cancel;  }
+    }
+
+    th, td { border-bottom: 1px solid white; }
+
+    .column-qrr_actions a {
+
+      text-indent: -9999px;
+      position: relative;
+      padding: 0!important;
+      height: 2em!important;
+      width: 2em;
+      margin-right: 4px!important;
+
+      &:before {
+        speak: none;
+        font-weight: 400;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        margin: 0;
+        text-indent: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 1.85;
+      }
+
+      &.pending:before { background: @color_pending_strong; }
+      &.confirm:before { background: @color_confirm_strong; }
+      &.reject:before { background: @color_reject_strong; }
+      &.cancel:before { background: @color_cancel_strong; }
+
+    }
+
+
+  }
+}
+
+// Hide search box
+.search-box { display: none; }
+
+// Show filters in mobile
+@media screen and (max-width: 782px) {
+  .tablenav.top .actions, .tablenav .view-switch {
+    display: block;
+  }
+}

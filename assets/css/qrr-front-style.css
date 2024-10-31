@@ -1,0 +1,127 @@
+.qrr-booking-form fieldset {
+  border: 1px solid #cdcdcd;
+  padding: 15px;
+  margin-top: 30px;
+}
+.qrr-booking-form fieldset legend {
+  padding: 0px 10px;
+  font-weight: bold;
+}
+.qrr-booking-form .qrr-text label {
+  display: block;
+  margin-top: 20px;
+}
+.qrr-booking-form input,
+.qrr-booking-form select {
+  min-width: 200px;
+}
+.qrr-booking-form input,
+.qrr-booking-form select {
+  background: white;
+  border: 1px solid #cdcdcd;
+}
+.qrr-booking-form label .fa::before {
+  margin-right: 15px;
+}
+.qrr-booking-form .spinner {
+  width: 30px;
+}
+.qrr-booking-form .qrr-submit {
+  margin-top: 30px;
+}
+.qrr-booking-form .qrr-error-valid {
+  color: red;
+}
+.qrr-booking-form .form-error {
+  color: red;
+  margin-top: 10px;
+}
+.qrr-booking-form .description {
+  font-size: 13px;
+  font-style: italic;
+}
+.qrr-booking-form .qrr-field-error {
+  background: #ffe0e0;
+  padding: 0px 10px;
+}
+@media (max-width: 640px) {
+  .qrr-booking-form input,
+  .qrr-booking-form select {
+    width: 100%;
+    padding: 0px 20px !important;
+  }
+}
+#qrr-date_root .picker__header {
+  margin-top: 30px;
+}
+#qrr-date_root .picker__month {
+  font-weight: 100;
+}
+#qrr-date_root .picker__year {
+  font-size: 20px;
+  font-weight: 100;
+  font-style: normal;
+}
+#qrr-date_root .picker__nav--prev {
+  margin-left: 10px;
+  border-radius: 40px;
+}
+#qrr-date_root .picker__nav--next {
+  margin-right: 10px;
+  border-radius: 40px;
+}
+#qrr-date_root .picker__button--today,
+#qrr-date_root .picker__button--clear,
+#qrr-date_root .picker__button--close {
+  color: black;
+  font-weight: 100;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  width: 25%;
+  margin: 0px 2% 20px 2%;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+#qrr-date_root .picker__nav--prev:before {
+  border-right-color: #ababab;
+}
+#qrr-date_root .picker__nav--prev:hover:before {
+  border-right-color: black;
+}
+#qrr-date_root .picker__nav--next:before {
+  border-left-color: #ababab;
+}
+#qrr-date_root .picker__nav--next:hover:before {
+  border-left-color: black;
+}
+#qrr-date_root .picker__nav--prev:hover,
+#qrr-date_root .picker__nav--next:hover {
+  background: transparent;
+}
+#qrr-date_table {
+  border: none;
+  margin-top: 20px;
+}
+#qrr-date_table td {
+  border-bottom: none !important;
+  padding: 0px;
+}
+#qrr-date_table .picker__weekday {
+  text-align: center;
+  background: transparent;
+  border-bottom: none;
+  font-weight: 100;
+  font-size: 14px;
+}
+#qrr-date_table .picker__day {
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+}
+#qrr-date_table .picker__day--disabled,
+#qrr-date_table .picker__day--disabled:hover,
+#qrr-date_table .picker--focused .picker__day--disabled {
+  background: #ffdbdb;
+  border-color: transparent;
+  color: #ffffff;
+}

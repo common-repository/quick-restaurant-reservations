@@ -1,0 +1,184 @@
+.qrr-custom-fields {
+  text-align: left;
+}
+.qrr-custom-fields tr,
+.qrr-custom-fields td {
+  vertical-align: top;
+}
+.qrr-custom-fields input[type=text],
+.qrr-custom-fields select,
+.qrr-custom-fields textarea {
+  min-width: 200px;
+}
+.qrr-custom-fields textarea {
+  min-height: 120px;
+}
+#qrr_booking_save .inside {
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+#qrr_booking_save #delete-action {
+  line-height: 25px;
+  vertical-align: middle;
+  text-align: left;
+  float: left;
+}
+#qrr_booking_save input[type=submit] {
+  float: right;
+}
+.ui-datepicker:not(.ui-datepicker-inline) {
+  font-size: 14px;
+  padding: 6px 6px 0;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.18);
+  z-index: 5 !important;
+}
+.ui-datepicker:not(.ui-datepicker-inline) * {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.ui-datepicker:not(.ui-datepicker-inline) td {
+  padding: 0;
+}
+.ui-datepicker:not(.ui-datepicker-inline) td .ui-state-default {
+  background: 0 0;
+  border: none;
+  text-align: center;
+}
+.ui-datepicker:not(.ui-datepicker-inline) td.ui-datepicker-today,
+.ui-datepicker:not(.ui-datepicker-inline) td.ui-datepicker-today a {
+  color: #f6563e;
+}
+.ui-datepicker:not(.ui-datepicker-inline) td.ui-datepicker-selected-day,
+.ui-datepicker:not(.ui-datepicker-inline) td.ui-datepicker-current-day a,
+.ui-datepicker:not(.ui-datepicker-inline) td.ui-datepicker-current-day a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}
+.ui-datepicker:not(.ui-datepicker-inline) td:hover,
+.ui-datepicker:not(.ui-datepicker-inline) .ui-state-hover,
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-prev-hover,
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-next-hover {
+  background: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header {
+  background: 0 0;
+  border: 0;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 0;
+  padding-bottom: 9px;
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-prev-hover,
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-next-hover,
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-next,
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-prev {
+  height: 35px;
+  width: 35px;
+  top: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-prev {
+  left: 0;
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-next {
+  right: 0;
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-prev span,
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-next span {
+  background: none;
+  margin-top: 0;
+  top: 0;
+  height: 40px;
+  font-weight: normal;
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-prev span:before,
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-next span:before {
+  font-family: dashicons;
+  text-indent: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  line-height: 35px;
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-prev span:before {
+  content: "\f340";
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-header .ui-datepicker-next span:before {
+  content: "\f344";
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-buttonpane {
+  border-top: 1px solid #ddd;
+}
+.ui-datepicker:not(.ui-datepicker-inline) .ui-datepicker-buttonpane button {
+  background: #f7f7f7;
+}
+.qrr-send-email-update {
+  margin: 20px;
+}
+.qrr-send-email-update textarea {
+  width: 500px;
+  height: 150px;
+}
+.qrr-send-email-update a {
+  display: block;
+}
+.qrr-email-list td {
+  vertical-align: top;
+  padding: 5px;
+}
+.qrr-email-list .sent-success {
+  color: green;
+}
+.qrr-email-list .sent-error {
+  color: red;
+}
+#qrr-popup-email {
+  z-index: 10000;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+#qrr-popup-email .popup-inner-wrap {
+  position: relative;
+  width: 800px;
+  background: #ebebeb;
+  display: inline-block;
+  height: 80%;
+  margin-top: 5%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+#qrr-popup-email .popup-close {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+#qrr-popup-email .popup-close a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  display: inline-block;
+  background: black;
+  color: white;
+}
+#qrr-popup-email .popup-inner {
+  width: 100%;
+  height: 98%;
+  overflow-y: scroll;
+}
+#qrr-popup-email.open {
+  display: block;
+}

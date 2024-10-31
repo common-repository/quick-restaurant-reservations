@@ -1,0 +1,114 @@
+select[name=filter_view] {
+  border: 4px solid #76ddf7;
+  position: relative;
+  top: -4px;
+}
+input[name=booking_date] {
+  line-height: 24px;
+}
+.wp-list-table {
+  /*
+  td.qrr_status_kk {
+
+    .status-pending,
+    .status-confirmed,
+    .status-rejected,
+    .status-cancelled {
+      display: inline-block;
+      padding: 5px 10px;
+      background: grey;
+    }
+
+    .status-pending { background: #fff100; }
+    .status-confirmed { background: greenyellow; }
+    .status-rejected { background: #ffaeae; }
+    .status-cancelled { background: #e0e0e0; }
+  }
+  */
+}
+.wp-list-table #qrr_restaurant {
+  width: 150px;
+}
+.wp-list-table #qrr_party {
+  width: 40px;
+}
+.wp-list-table #qrr_status {
+  width: 80px;
+}
+.wp-list-table tr.type-qrr_booking.status-pending th:first-child {
+  border-left: 8px solid #ffcb70;
+}
+.wp-list-table tr.type-qrr_booking.status-qrr-confirmed th:first-child {
+  border-left: 8px solid #76ddf7;
+}
+.wp-list-table tr.type-qrr_booking.status-qrr-rejected th:first-child {
+  border-left: 8px solid #ef9391;
+}
+.wp-list-table tr.type-qrr_booking.status-qrr-cancelled th:first-child {
+  border-left: 8px solid darkgrey;
+}
+.wp-list-table tr.type-qrr_booking.status-pending th,
+.wp-list-table tr.type-qrr_booking.status-pending td {
+  background: #ffe2b7;
+}
+.wp-list-table tr.type-qrr_booking.status-qrr-confirmed th,
+.wp-list-table tr.type-qrr_booking.status-qrr-confirmed td {
+  background: #bce8f7;
+}
+.wp-list-table tr.type-qrr_booking.status-qrr-rejected th,
+.wp-list-table tr.type-qrr_booking.status-qrr-rejected td {
+  background: #efc5cd;
+}
+.wp-list-table tr.type-qrr_booking.status-qrr-cancelled th,
+.wp-list-table tr.type-qrr_booking.status-qrr-cancelled td {
+  background: #d3d3d3;
+}
+.wp-list-table tr.type-qrr_booking th,
+.wp-list-table tr.type-qrr_booking td {
+  border-bottom: 1px solid white;
+}
+.wp-list-table tr.type-qrr_booking .column-qrr_actions a {
+  text-indent: -9999px;
+  position: relative;
+  padding: 0!important;
+  height: 2em!important;
+  width: 2em;
+  margin-right: 4px!important;
+}
+.wp-list-table tr.type-qrr_booking .column-qrr_actions a:before {
+  speak: none;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  text-indent: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 1.85;
+}
+.wp-list-table tr.type-qrr_booking .column-qrr_actions a.pending:before {
+  background: #ffcb70;
+}
+.wp-list-table tr.type-qrr_booking .column-qrr_actions a.confirm:before {
+  background: #76ddf7;
+}
+.wp-list-table tr.type-qrr_booking .column-qrr_actions a.reject:before {
+  background: #ef9391;
+}
+.wp-list-table tr.type-qrr_booking .column-qrr_actions a.cancel:before {
+  background: darkgrey;
+}
+.search-box {
+  display: none;
+}
+@media screen and (max-width: 782px) {
+  .tablenav.top .actions,
+  .tablenav .view-switch {
+    display: block;
+  }
+}

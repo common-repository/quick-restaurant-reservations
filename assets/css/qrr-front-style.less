@@ -1,0 +1,126 @@
+.qrr-booking-form {
+
+  fieldset {
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+    margin-top: 30px;
+    legend { padding: 0px 10px; font-weight: bold; }
+  }
+
+  .qrr-text label { display: block; margin-top: 20px; }
+
+  input:read-only {  }
+
+  input, select {
+    min-width: 200px;
+  }
+
+  input, select {
+    background: white;
+    border: 1px solid #cdcdcd;
+  }
+
+  label .fa::before {
+    margin-right: 15px;
+  }
+  .spinner { width: 30px; }
+
+  .qrr-submit { margin-top: 30px; }
+
+  .qrr-error-valid { color: red; }
+
+  .form-submitted {}
+  .form-error { color: red; margin-top: 10px; }
+
+  .description { font-size: 13px; font-style: italic; }
+
+  .qrr-field-error { background: #ffe0e0; padding: 0px 10px; }
+}
+
+@media (max-width: 640px) {
+  .qrr-booking-form {
+    input, select { width: 100%; padding: 0px 20px !important; }
+  }
+}
+
+
+// pickadate
+//--------------------------
+#qrr-date_root {
+
+  .picker__header { margin-top: 30px; }
+  .picker__month { font-weight: 100; }
+  .picker__year {
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .picker__nav--prev { margin-left: 10px; border-radius: 40px;  }
+  .picker__nav--next { margin-right: 10px; border-radius: 40px; }
+
+  .picker__button--today, .picker__button--clear, .picker__button--close {
+    color: black;
+    font-weight: 100;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    margin: 0px 2% 20px 2%;
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  .picker__button--today:hover, .picker__button--clear:hover, .picker__button--close:hover {
+
+  }
+
+  .picker__nav--prev:before { border-right-color: #ababab; }
+  .picker__nav--prev:hover:before { border-right-color: black; }
+  .picker__nav--next:before { border-left-color: #ababab; }
+  .picker__nav--next:hover:before { border-left-color: black; }
+
+  .picker__nav--prev:hover, .picker__nav--next:hover { background: transparent; }
+
+
+}
+
+#qrr-date_table {
+
+  border: none;
+  margin-top: 20px;
+
+  td { border-bottom: none !important; padding: 0px; }
+
+
+
+  .picker__weekday {
+    text-align: center;
+    background: transparent;
+    border-bottom: none;
+    font-weight: 100;
+    font-size: 14px;
+  }
+  .picker__day {
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .picker__day--infocus:hover,
+  .picker__day--outfocus:hover {
+    //background: #d9f5b8;
+  }
+  .picker__day--selected,
+  .picker__day--selected:hover,
+  .picker--focused .picker__day--selected {
+
+  }
+
+  .picker__day--disabled, .picker__day--disabled:hover, .picker--focused .picker__day--disabled {
+    background: #ffdbdb;
+    border-color: transparent;
+    color: #ffffff;
+  }
+}
+
+

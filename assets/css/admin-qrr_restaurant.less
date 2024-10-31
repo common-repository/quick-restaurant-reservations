@@ -1,0 +1,529 @@
+
+@color_green: #8fff93;
+@color_green_light: #c5ffb7;
+@color_red: #ff9189;
+@color_red_light: #ffccc6;
+@color_drag: greenyellow;
+
+
+//********************************
+// SETTINGS
+//********************************
+
+.qrr-settings-desc {
+  color: #949494;
+  font-style: italic;
+}
+
+//********************************
+// DEFAULT EDITOR
+//********************************
+
+.wp-editor-tools {
+  height: 34px;
+}
+
+
+// New Save button in the post editor
+.qrr-save-box {
+  #publishing-action { float: none; }
+}
+
+//********************************
+// TABS
+//********************************
+
+#qrr_global {
+  border: none;
+  background: #f1f1f1;
+  .inside { background: transparent; padding: 0px; }
+  .hndle { display: none; }
+  .handlediv { display: none; }
+}
+
+.nav-tab-wrapper {
+  .nav-tab.nav-tab-active {
+
+  }
+}
+
+.tab-contents {
+  margin-top: 15px;
+  .group { display: none; }
+  .group.active { display: block; }
+}
+
+
+//********************************
+// GENERAL
+//********************************
+
+.table-fields {
+  textarea { width: 300px; min-height: 100px;}
+}
+
+
+//********************************
+// SCHEDULE
+//********************************
+
+
+body.qrr_popup_open { overflow: hidden; }
+
+.qrr-schedule {
+  display: block; margin: 12px 0px;
+  background: white;
+
+  .schedule-wrap {
+    //border: 1px solid #808080;
+  }
+  .schedule-wrap.status-opened { background: @color_green_light; border-left: 5px solid @color_green; }
+  .schedule-wrap.status-closed { background: @color_red_light; border-left: 5px solid @color_red; }
+
+
+  .schedule-header {
+    //border-bottom: 2px solid #f1f1f1;
+    padding: 30px 10px;
+  }
+  .schedule-body { padding: 20px; }
+}
+
+.qrr-left-align { text-align: left; }
+.qrr-right-align { text-align: right; }
+.qrr-scroll-y {
+  max-height: 165px; overflow-y: scroll;
+}
+.qrr-small { width: 60px; }
+
+.qrr-schedule .status-invisible .schedule-body { display: none; }
+.qrr-schedule .status-inactive {
+  .schedule-header, .schedule-body { background: #f1f1f1; opacity: 0.7; }
+}
+
+.qrr-schedule.sortable-chosen .schedule-wrap { background: @color_drag !important; }
+
+.qrr-field {
+  margin-bottom: 15px;
+  &.field-dates { margin-top: 30px; }
+}
+
+
+.qrr-checkbox-day {
+  display: inline-block;
+  width: 94px;
+  height: 30px;
+  label {
+    position: relative;
+    span {
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      width: 90px;
+      background: #f7f7f7;
+      color: #87898a;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+    }
+    input:checked + span {
+      background: @color_green;
+      color: black;
+    }
+  }
+}
+
+.schedule-wrap.status-closed {
+  .qrr-checkbox-day label input:checked + span { background: @color_red; }
+}
+
+.qrr-action {
+  display: inline-block;
+  /* float: right; */
+  width: 30px;
+  /* height: 30px; */
+  text-align: center;
+  /* line-height: 55px; */
+  font-size: 16px;
+  position: relative;
+  /* top: -3px; */
+  /* color: gray; */
+}
+.qrr-action:hover .fa { color: black; }
+.qrr-action:focus,
+.qrr-action i:focus {
+  box-shadow: none !important;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+// CHECKBOX YES NO
+.qrr-checkbox-yesno {
+
+  position: relative;
+  height: 30px;
+  display: inline-block;
+  min-width: 80px;
+
+  .status {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    background: white;
+    color: #87898a;
+    border: 1px solid #8d8d8d;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .status span {
+    background: #f7f7f7;
+    display: inline-block;
+    min-width: 30px;
+    float: left;
+    height: 100%;
+    padding: 0px 5px;
+  }
+
+  &.status-yes {
+    .title-yes { background: @color_green; color: black; }
+    .title-no { }
+  }
+
+  &.status-no {
+    .title-yes { }
+    .title-no { background: @color_red; color: black;  }
+  }
+
+}
+
+.status-opened {
+  .irs-bar {  background-position: 0px -75px;  }
+  .irs-slider { background-position: -12px -120px;  }
+  .irs-from, .irs-to, .irs-single {
+    background: @color_green;
+  }
+  .irs-from:after, .irs-to:after, .irs-single:after { border-top-color: @color_green; }
+}
+
+
+.qrr-check-rules {
+  border-top: 1px solid #c2c2c2;
+  margin-top: 20px;
+}
+.schedule-wrap.test_applied { box-sizing: border-box; border: 2px solid red; }
+
+
+// HEADER
+
+
+.schedule-header {
+  display: table;
+  width: 100%;
+  .schedule-col { display: table-cell; }
+  .schedule-col1 { width: 150px; }
+  .schedule-col3 { width: 100px; }
+  .field-inline { display: inline-block; vertical-align: middle; }
+
+  .schedule-drag { width: 30px; text-align: center; }
+  .qrr-checkbox-yesno { height: auto; }
+}
+
+
+/*
+.schedule-drag {
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+  height: 30px;
+  line-height: 55px;
+  text-align: center;
+  margin-right: 20px;
+  cursor: move;
+  color: gray;
+  top: -3px;
+  position: relative;
+}
+
+
+
+.field-inline {
+  display: inline-block; vertical-align: middle;
+  .the-title {
+    display: inline-block;
+    font-size: 12px;
+    color: gray;
+    margin-right: 15px;
+    position: relative;
+    top: -3px;
+  }
+}
+.schedule-name { padding-left: 10px; width: 150px; overflow: hidden; }
+.schedule-active {
+   width: 80px;
+  .qrr-checkbox-yesno { width: 100px; }
+  .qrr-checkbox-yesno.status-yes .title-yes { background: black; color: white; }
+  .qrr-checkbox-yesno.status-no .title-no { background: #cdcdcd; }
+}
+.schedule-open {
+  width:100px; margin-left: 15px;
+  .qrr-checkbox-yesno { width: 150px; }
+  .title-yes, .title-no { padding: 0px 10px !important; }
+}
+.schedule-capacity {
+  width: 150px;
+  margin-left: 20px;
+  select {
+    position: relative; top: -4px;
+  }
+}
+*/
+
+
+// DATE PICKER
+.datepicker-from, .datepicker-to { width: 100px; }
+.field-dates {
+  .dates-alldates { display: inline-block; margin-right: 20px; vertical-align: middle; }
+  .vue-group-data { display: inline-block; vertical-align: middle; }
+  &.alldates .vue-group-data { display: none; }
+}
+
+// TIME PICKER
+.field-time {
+  .time-alltime { display: inline-block; margin-right: 20px; vertical-align: middle; width: 15%; }
+  .vue-group-data { display: inline-block; vertical-align: middle; width: 80%; }
+  &.alltime .vue-group-data { display: none; }
+}
+
+// BUTTONS
+.button-schedule-remove {
+  position: relative;
+  top: -4px;
+  right: -5px;
+}
+
+
+
+
+
+// Tabs
+//-----------------------
+
+.qrr-tabs {
+  border-bottom: 1px solid #c7c7c7;
+  a:focus { box-shadow: none; }
+  a {
+    display: inline-block; margin-right: 20px;
+    padding: 10px;
+    color: #bfbfbf;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a.active {
+    color: black;
+    box-shadow: 0 1px 0 0 #f1f1f1;
+    border: 1px solid #c7c7c7;
+    border-bottom: none;
+  }
+
+}
+
+.qrr-tab-content {
+  margin-top: 30px;
+}
+
+
+
+
+// Metabox Booking Notifications
+//-----------------------------------------
+
+.field-title {
+  font-weight: bold;
+}
+.text-medium {
+  width: 500px; max-width: 100%;
+}
+.table-fields {
+  width: 100%;
+  td { vertical-align: top; padding-bottom: 20px;}
+  td:first-child { max-width: 120px;}
+}
+
+#qrr-email-tabs {
+  .qrr-tab-content { display: none; }
+  .qrr-tab-content.active { display: block; }
+}
+
+.qrr-email-tags {
+  .qrr-email-tag {
+    margin: 2px;
+    background: #e4e4e4;
+    padding: 5px 6px;
+    width: 550px;
+    /* float: left; */
+    display: inline-block;
+  }
+  .tag-tag { display: inline-block; min-width: 150px; }
+}
+
+// avoid strange beahaviour when change tab
+#qrr_email_update .table-fields .field-title { min-height: 500px; }
+
+// SCHEDULE POPUP
+//--------------------------------
+
+.qrr-popup {
+
+  .popup-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-bottom: 1px solid #dedede;
+    color: #acacac;
+  }
+
+  display: none;
+
+  z-index: 1000000;
+  position: fixed;
+  top: 0px; bottom: 0px;
+  left: 0px; right: 0px;
+  text-align: center;
+  background: rgba(0,0,0,.7);
+
+  &.open { display: block; }
+
+  .popup-inner-wrap {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 700px;
+    //height: 400px;
+    background: white;
+    margin-top: 100px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.7);
+  }
+
+  .popup-close-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: black;
+    line-height: 40px;
+  }
+
+  .popup-tab-body { padding: 0px 20px 20px 20px; }
+
+  .field-status .qrr-checkbox-yesno { width: 200px; }
+
+  .qrr-list-hours { margin-top: 15px; }
+
+  .qrr-hour {
+    display: inline-block;
+    background: @color_green;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    &:hover { background: red; }
+    span { cursor: pointer; }
+  }
+
+}
+
+
+// Custom fields
+//------------------------------------
+
+
+//********************************
+// CUSTOM FIELDS
+//********************************
+
+
+#booking-fields {
+
+  margin-top: 30px;
+
+  .qrr-field-wrap {
+    margin: 5px 20px;
+  }
+
+  .qrr-form-field {
+    padding: 0px 15px;
+    width: 400px;
+    line-height: 40px;
+    background: white;
+    margin-left: 30px;
+
+    &.field-cannotremove {
+      background: white;
+    }
+
+    &.field-header {
+      background: white;
+      margin-left: 0px;
+      margin-top: 20px;
+    }
+
+  }
+
+  .f-title {
+    width: 260px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+  }
+  .f-icon {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    color: slategray;;
+  }
+  .f-icon-right { float: right;
+    &:hover { color: black; }
+  }
+  .icon-drag { cursor: move };
+
+
+  .button{ margin-top: 30px; }
+
+  .sortable-chosen .qrr-form-field { background: @color_drag; }
+
+
+}
+
+
+// POPUP Custom Field editor
+.popup-field-editor {
+
+  .popup-title {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 10px;
+  }
+  .popup-content {
+    padding: 20px;
+  }
+  .popup-inner {
+    input[type=text] { width: 100%; }
+    input[type=text].small { width: 50%; }
+  }
+  .add-new-op { margin-top: 15px; }
+}
+
+// Fileupload field
+.fileupload img { width: 150px; height: auto; }
+
+
+

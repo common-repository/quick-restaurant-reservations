@@ -1,0 +1,1797 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-28 17:01+0000\n"
+"PO-Revision-Date: 2019-09-02 00:12+0200\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Language: fr\n"
+
+#: quick-restaurant-reservations.php:73
+msgid "Clone is not allowed"
+msgstr "Clone is not allowed"
+
+#: quick-restaurant-reservations.php:83
+msgid "Unserializing is not allowed"
+msgstr "La désérialisation n’est pas autorisée"
+
+#: includes/ajax-actions.php:69
+msgid " -> No rule can be applied, so <strong>Date not avaliable</strong>"
+msgstr ""
+"-> Aucune règle ne peut être appliquée. <Strong> Date non disponible </ "
+"strong>"
+
+#: includes/ajax-actions.php:86 includes/ajax-actions.php:127
+msgid "Server error, nonce is wrong. Contact the administrator."
+msgstr "Erreur du serveur, le nonce est faux. Contactez l’administrateur."
+
+#: includes/ajax-actions.php:246
+msgid "No hours available for date {date}."
+msgstr "No hours available for date {date}."
+
+#: includes/post-types.php:12
+msgctxt "post type general name"
+msgid "Restaurants"
+msgstr "Restaurants"
+
+#: includes/post-types.php:13
+msgctxt "post type singular name"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: includes/post-types.php:14 includes/post-types.php:15
+msgid "Add New Restaurant"
+msgstr "Ajouter un nouveau restaurant"
+
+#: includes/post-types.php:16
+msgid "Edit Restaurant"
+msgstr "Modifier le Restaurant"
+
+#: includes/post-types.php:17
+msgid "New Restaurant"
+msgstr "Nouveau Restaurant"
+
+#: includes/post-types.php:18
+msgid "All Restaurants"
+msgstr "Tous les Restaurants"
+
+#: includes/post-types.php:19
+msgid "View Restaurants"
+msgstr "Voir les Restaurants"
+
+#: includes/post-types.php:20
+msgid "Search Restaurants"
+msgstr "Rechercher les Restaurants"
+
+#: includes/post-types.php:21
+msgid "No Restaurants found"
+msgstr "Aucun Restaurant trouvé"
+
+#: includes/post-types.php:22
+msgid "No Restaurants found in Trash"
+msgstr "Aucun restaurant dans la corbeille"
+
+#: includes/post-types.php:24
+msgctxt "restaurant post type menu name"
+msgid "Restaurants"
+msgstr "Restaurants"
+
+#: includes/post-types.php:41
+msgctxt "post type general name"
+msgid "Bookings"
+msgstr "Réservations"
+
+#: includes/post-types.php:42
+msgctxt "post type singular name"
+msgid "Booking"
+msgstr "Réservation"
+
+#: includes/post-types.php:43 includes/post-types.php:44
+msgid "Add New Booking"
+msgstr "Ajouter une nouvelle réservation"
+
+#: includes/post-types.php:45
+msgid "Edit Booking"
+msgstr "Modifier la réservation"
+
+#: includes/post-types.php:46
+msgid "New Booking"
+msgstr "Nouvelle réservation"
+
+#: includes/post-types.php:47
+msgid "All Bookings"
+msgstr "Toutes les réservations"
+
+#: includes/post-types.php:48
+msgid "View Bookings"
+msgstr "Voir les réservations"
+
+#: includes/post-types.php:49
+msgid "Search Bookings"
+msgstr "Rechercher les réservations"
+
+#: includes/post-types.php:50
+msgid "No Bookings found"
+msgstr "Aucune réservation trouvée"
+
+#: includes/post-types.php:51
+msgid "No Bookings found in Trash"
+msgstr "Aucune réservation dans la corbeille"
+
+#: includes/post-types.php:53
+msgctxt "booking post type menu name"
+msgid "Rest. Bookings"
+msgstr "Réservations"
+
+#: includes/post-types.php:100
+msgctxt "post type general name"
+msgid "Clients"
+msgstr "Clients"
+
+#: includes/post-types.php:101
+msgctxt "post type singular name"
+msgid "Client"
+msgstr "Client"
+
+#: includes/post-types.php:102
+msgid "Add New"
+msgstr "Ajouter nouveau"
+
+#: includes/post-types.php:103
+msgid "Add New Client"
+msgstr "Ajouter nouveau client"
+
+#: includes/post-types.php:104
+msgid "Edit Client"
+msgstr "Modifier client"
+
+#: includes/post-types.php:105
+msgid "New Client"
+msgstr "Nouveaux Clients"
+
+#: includes/post-types.php:106
+msgid "All Clients"
+msgstr "Tous les Clients"
+
+#: includes/post-types.php:107
+msgid "View Client"
+msgstr "Voir Clients"
+
+#: includes/post-types.php:108
+msgid "Search Clients"
+msgstr "Rechercher les clients"
+
+#: includes/post-types.php:109
+msgid "No Clients found"
+msgstr "Aucun client trouvé"
+
+#: includes/post-types.php:110
+msgid "No Clients found in Trash"
+msgstr "Aucun client dans la corbeille"
+
+#: includes/post-types.php:112 includes/admin/admin-pages.php:25
+msgid "Clients"
+msgstr "Clients"
+
+#: templates/front-form.php:222
+msgctxt "from"
+msgid "Request Booking"
+msgstr "Demande de réservation"
+
+#: templates/front-form.php:226
+msgid "Sending request ...."
+msgstr "Envoi de la demande"
+
+#: includes/admin/admin-pages.php:23
+#: includes/admin/templates/template-create-booking.old.php:27
+#: includes/admin/templates/template-create-booking.php:10
+msgid "Create Booking"
+msgstr "Créer une réservation"
+
+#: includes/admin/admin-pages.php:24
+msgid "Restaurants"
+msgstr "Restaurants"
+
+#: includes/admin/admin-pages.php:27
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/admin/admin-pages.php:28
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: includes/admin/functions.php:24
+msgctxt "Time Intervals"
+msgid "5 minutes"
+msgstr "5 minutes"
+
+#: includes/admin/functions.php:25
+msgctxt "Time Intervals"
+msgid "10 minutes"
+msgstr "10 minutes"
+
+#: includes/admin/functions.php:26
+msgctxt "Time Intervals"
+msgid "15 minutes"
+msgstr "15 minutes"
+
+#: includes/admin/functions.php:27
+msgctxt "Time Intervals"
+msgid "20 minutes"
+msgstr "20 minutes"
+
+#: includes/admin/functions.php:28
+msgctxt "Time Intervals"
+msgid "30 minutes"
+msgstr "30 minutes"
+
+#: includes/admin/functions.php:29
+msgctxt "Time Intervals"
+msgid "45 minutes"
+msgstr "45 minutes"
+
+#: includes/admin/functions.php:30
+msgctxt "Time Intervals"
+msgid "60 minutes"
+msgstr "60 minutes"
+
+#: includes/admin/booking/Booking_admin.php:99
+msgctxt "Table bookings"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: includes/admin/booking/Booking_admin.php:100
+msgctxt "Table bookings"
+msgid "Status"
+msgstr "Statut"
+
+#: includes/admin/booking/Booking_admin.php:101
+msgctxt "Table bookings"
+msgid "Date"
+msgstr "Date"
+
+#: includes/admin/booking/Booking_admin.php:102
+msgctxt "Table bookings"
+msgid "Party"
+msgstr "Nb"
+
+#: includes/admin/booking/Booking_admin.php:103
+#: includes/admin/booking/Booking_admin.php:104
+msgctxt "Table bookings"
+msgid "Name"
+msgstr "Nom"
+
+#: includes/admin/booking/Booking_admin.php:105
+msgctxt "Table bookings"
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/booking/Booking_admin.php:106
+msgctxt "Table bookings"
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/admin/booking/Booking_admin.php:109
+msgctxt "Table bookings"
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/admin/booking/Booking_admin.php:177
+#: includes/admin/booking/Booking_admin.php:178
+msgid "View"
+msgstr "Voir"
+
+#: includes/admin/booking/Booking_admin.php:184
+msgctxt "Actions"
+msgid "Pending"
+msgstr "En attente"
+
+#: includes/admin/booking/Booking_admin.php:185
+msgctxt "Actions"
+msgid "Pending (send email)"
+msgstr "En attente (envoi email)"
+
+#: includes/admin/booking/Booking_admin.php:191
+msgctxt "Actions"
+msgid "Confirm"
+msgstr "Confirmation"
+
+#: includes/admin/booking/Booking_admin.php:192
+msgctxt "Actions"
+msgid "Confirm (send email)"
+msgstr "Confirmation (envoi email)"
+
+#: includes/admin/booking/Booking_admin.php:198
+msgctxt "Actions"
+msgid "Reject"
+msgstr "Refus"
+
+#: includes/admin/booking/Booking_admin.php:199
+msgctxt "Actions"
+msgid "Reject (send email)"
+msgstr "Refus (envoi email)"
+
+#: includes/admin/booking/Booking_admin.php:205
+msgctxt "Actions"
+msgid "Cancel"
+msgstr "Annulation"
+
+#: includes/admin/booking/Booking_admin.php:206
+msgctxt "Actions"
+msgid "Cancel (no email)"
+msgstr "Annulation (envoi email)"
+
+#: includes/admin/booking/Booking_admin.php:266
+msgid "Pending"
+msgstr "En attente"
+
+#: includes/admin/booking/Booking_admin.php:267
+msgid "Pending (send email)"
+msgstr "En attente (envoi email)"
+
+#: includes/admin/booking/Booking_admin.php:268
+msgid "Confirm"
+msgstr "Confirmation "
+
+#: includes/admin/booking/Booking_admin.php:269
+msgid "Confirm (send email)"
+msgstr "Confirmation (envoi email)"
+
+#: includes/admin/booking/Booking_admin.php:270
+msgid "Reject"
+msgstr "Refus"
+
+#: includes/admin/booking/Booking_admin.php:271
+msgid "Reject (send email)"
+msgstr "Refus (envoi email)"
+
+#: includes/admin/booking/Booking_admin.php:272
+msgid "Cancel"
+msgstr "Annulation"
+
+#: includes/admin/booking/Booking_admin.php:309
+#: includes/admin/booking/Booking_admin.php:388
+#: includes/admin/booking/Booking_admin.php:665
+msgid "Error action -Pending email-"
+msgstr "Erreur -En attente de email-"
+
+#: includes/admin/booking/Booking_admin.php:314
+#: includes/admin/booking/Booking_admin.php:406
+#: includes/admin/booking/Booking_admin.php:669
+msgid "Error action -Confirm email-"
+msgstr "Erreur -Confirmer email-"
+
+#: includes/admin/booking/Booking_admin.php:319
+#: includes/admin/booking/Booking_admin.php:424
+#: includes/admin/booking/Booking_admin.php:673
+msgid "Error action -Reject email-"
+msgstr "Erreur -Email rejeté-"
+
+#: includes/admin/booking/Booking_admin.php:324
+#: includes/admin/booking/Booking_admin.php:433
+#: includes/admin/booking/Booking_admin.php:677
+msgid "Error action -Cancel-"
+msgstr "Erreur -Annulation-"
+
+#: includes/admin/booking/Booking_admin.php:379
+msgid "Error action -Pending-"
+msgstr "Erreur -En attente-"
+
+#: includes/admin/booking/Booking_admin.php:397
+msgid "Error action -Confirm-"
+msgstr "Erreur -Confirmation-"
+
+#: includes/admin/booking/Booking_admin.php:415
+msgid "Error action -Reject-"
+msgstr "Erreur -Refus-"
+
+#: includes/admin/booking/Booking_admin.php:498
+#, php-format
+msgid "%s Booking(s) have changed to Pending."
+msgstr "%s Réservation(s) ont changé à En attente."
+
+#: includes/admin/booking/Booking_admin.php:499
+#, php-format
+msgid "%s Booking(s) have changed to Pending with email sent."
+msgstr ""
+"% s La ou les réservations ont changé à En attente avec envoi d’un courrier "
+"électronique."
+
+#: includes/admin/booking/Booking_admin.php:500
+#, php-format
+msgid "%s Booking(s) have been Confirmed."
+msgstr "% s réservation (s) ont été confirmées."
+
+#: includes/admin/booking/Booking_admin.php:501
+#, php-format
+msgid "%s Booking(s) have been Confirmed with email sent."
+msgstr ""
+"% s réservation (s) ont été confirmées avec envoi d’un courrier électronique."
+
+#: includes/admin/booking/Booking_admin.php:502
+#, php-format
+msgid "%s Booking(s) have been Rejected."
+msgstr "% s réservation (s) ont été rejetées."
+
+#: includes/admin/booking/Booking_admin.php:503
+#, php-format
+msgid "%s Booking(s) have been Rejected with email sent."
+msgstr ""
+"% s réservation (s) ont été rejetées avec envoi d’un courrir électronique."
+
+#: includes/admin/booking/Booking_admin.php:504
+#, php-format
+msgid "%s Booking(s) have been Cancelled."
+msgstr "% s réservation (s) ont été annulés."
+
+#: includes/admin/booking/Booking_admin.php:551
+msgctxt "Filters"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: includes/admin/booking/Booking_admin.php:552
+msgctxt "Filters"
+msgid "All"
+msgstr "Tous"
+
+#: includes/admin/booking/Booking_admin.php:657
+msgid "You have taken too long. Please go back and retry."
+msgstr "Votre session a expirée. Veuillez revenir en arrière et réessayer."
+
+#: includes/admin/booking/Booking_edit.php:51
+msgid "Booking data"
+msgstr "Données de réservation"
+
+#: includes/admin/booking/Booking_edit.php:52
+msgid "Booking emails"
+msgstr "Emails de réservation"
+
+#: includes/admin/booking/Booking_edit.php:53
+msgid "Booking Actions"
+msgstr "Actions de réservation"
+
+#: includes/admin/booking/Booking_edit.php:97
+msgid "Status"
+msgstr "Statuts"
+
+#: includes/admin/booking/Booking_edit.php:108
+msgid "Send Email to Customer"
+msgstr "Envoyer un email au client"
+
+#: includes/admin/booking/Booking_edit.php:113
+msgid "Move to trash"
+msgstr "Déplacer dans la corbeille"
+
+#: includes/admin/booking/Booking_edit.php:114
+msgid "Save Booking"
+msgstr "Enregistrer la réservation"
+
+#: includes/admin/booking/Booking_edit.php:114
+msgid "Save/update the booking"
+msgstr "Enregistrer / mettre à jour la réservation"
+
+#: includes/admin/booking/Booking_edit.php:147
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: includes/admin/booking/Booking_edit.php:160
+msgid "Schedule"
+msgstr "Programme"
+
+#: includes/admin/booking/Booking_edit.php:167
+msgid "Date"
+msgstr "Date"
+
+#: includes/admin/booking/Booking_edit.php:172
+#: includes/admin/templates/template-schedule.php:115
+msgid "Time"
+msgstr "Temps"
+
+#: includes/admin/booking/Booking_edit.php:188
+msgid "Party"
+msgstr "Nombre"
+
+#: includes/admin/booking/Booking_edit.php:193
+msgctxt "Booking"
+msgid "Duration"
+msgstr "Durée"
+
+#: includes/admin/booking/Booking_edit.php:212
+msgctxt "Booking"
+msgid "Tables"
+msgstr "Tables"
+
+#: includes/admin/booking/Booking_edit.php:229
+#: includes/admin/client/Client_edit.php:62
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/booking/Booking_edit.php:235
+#: includes/admin/templates/template-create-booking-restaurant.php:78
+msgid "Fill from customer"
+msgstr ""
+
+#: includes/admin/booking/Booking_edit.php:248
+#: includes/admin/client/Client_edit.php:67
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/admin/booking/Booking_edit.php:361
+msgid "Send email to customer:"
+msgstr "Envoi email au client:"
+
+#: includes/admin/booking/Booking_edit.php:364
+msgctxt "Booking"
+msgid "SEND EMAIL"
+msgstr "Envoi email"
+
+#: includes/admin/booking/Booking_edit.php:367
+msgctxt "Booking"
+msgid "..sending.."
+msgstr "..envoi"
+
+#: includes/admin/booking/Booking_edit.php:370
+msgctxt "Booking"
+msgid "Email sent!"
+msgstr "Email envoyé!"
+
+#: includes/admin/booking/Booking_edit.php:386
+msgctxt "List emails"
+msgid "To:"
+msgstr "À:"
+
+#: includes/admin/booking/Booking_edit.php:387
+msgctxt "List emails"
+msgid "Subject:"
+msgstr "Objet:"
+
+#: includes/admin/booking/Booking_edit.php:388
+msgctxt "List emails"
+msgid "Message:"
+msgstr "Message:"
+
+#: includes/admin/booking/Booking_edit.php:388
+msgctxt "List emails"
+msgid "show"
+msgstr "voir"
+
+#: includes/admin/booking/Booking_edit.php:531
+msgctxt "Quick restaurant reservations"
+msgid "Pending"
+msgstr "En attente"
+
+#: includes/admin/booking/Booking_edit.php:536
+#, php-format
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] "En attente <span class=\"count\">(%s)</span>"
+msgstr[1] "En attente <span class=\"count\">(%s)</span>"
+
+#: includes/admin/booking/Booking_edit.php:540
+msgctxt "Quick restaurant reservations"
+msgid "Confirmed"
+msgstr "Confirmé"
+
+#: includes/admin/booking/Booking_edit.php:545
+#, php-format
+msgid "Confirmed <span class=\"count\">(%s)</span>"
+msgid_plural "Confirmed <span class=\"count\">(%s)</span>"
+msgstr[0] "Confirmé <span class=\"count\">(%s)</span>"
+msgstr[1] "Confirmés <span class=\"count\">(%s)</span>"
+
+#: includes/admin/booking/Booking_edit.php:549
+msgctxt "Quick restaurant reservations"
+msgid "Rejected"
+msgstr "Refusé"
+
+#: includes/admin/booking/Booking_edit.php:554
+#, php-format
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected <span class=\"count\">(%s)</span>"
+msgstr[0] "Réfusé <span class=\"count\">(%s)</span>"
+msgstr[1] "Réfusés <span class=\"count\">(%s)</span>"
+
+#: includes/admin/booking/Booking_edit.php:558
+msgctxt "Quick restaurant reservations"
+msgid "Cancelled"
+msgstr "Annulé"
+
+#: includes/admin/booking/Booking_edit.php:563
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] "Annulé <span class=\"count\">(%s)</span>"
+msgstr[1] "Annulés <span class=\"count\">(%s)</span>"
+
+#: includes/admin/booking/Booking_email.php:158
+#: includes/admin/templates/template-notifications.php:105
+#: includes/admin/templates/template-notifications.php:119
+#: includes/admin/templates/template-notifications.php:133
+#: includes/admin/templates/template-notifications.php:147
+msgid "Your booking at "
+msgstr "Votre réservation à"
+
+#: includes/admin/booking/Booking_email.php:158
+#: includes/admin/templates/template-notifications.php:147
+msgid "has been updated"
+msgstr "a été mise à jour"
+
+#: includes/admin/booking/Booking_email.php:201
+#, php-format
+msgid ""
+"Email from QRReservations failed to send.\n"
+"Send time: %s\n"
+"To: %s\n"
+"Subject: %s\n"
+"\n"
+msgstr ""
+"Impossible d’envoyer le courrier électronique.\n"
+"Heure d’envoi:%s\n"
+"Pour:%s\n"
+"Sujets%s\n"
+"\n"
+
+#: includes/admin/booking/Booking_email.php:248
+msgctxt "Email link"
+msgid "Bookings link"
+msgstr "Lien de réservation"
+
+#: includes/admin/booking/Booking_email.php:249
+msgctxt "Email link"
+msgid "Confirm link"
+msgstr "Lien de confirmation"
+
+#: includes/admin/booking/Booking_email.php:250
+msgctxt "Email link"
+msgid "Reject link"
+msgstr "Lien de refus"
+
+#: includes/admin/booking/Booking_email.php:251
+msgctxt "Email link"
+msgid "Cancel link"
+msgstr "Lien d’annulation"
+
+#: includes/admin/booking/Booking_form.php:86
+msgctxt "booking details"
+msgid "Party"
+msgstr "Nombre"
+
+#: includes/admin/booking/Booking_form.php:197
+msgid ""
+"There was an error processing your booking. Please call us to make a "
+"booking. Thanks."
+msgstr ""
+"Une erreur s’est produite lors du traitement de votre réservation. S’il vous "
+"plaît appelez-nous pour faire une réservation. Merci."
+
+#: includes/admin/booking/Booking_validation.php:57
+msgid "This field is required"
+msgstr "Ce champ est requis"
+
+#: includes/admin/booking/Booking_validation.php:111
+msgctxt "validation"
+msgid "Invalid Name. Should have at least 3 characters."
+msgstr "Nom incorrect. Le nom doit avoir au moins 3 caractères."
+
+#: includes/admin/booking/Booking_validation.php:121
+msgctxt "validation"
+msgid "Invalid Email"
+msgstr "Email incorrect."
+
+#: includes/admin/booking/Booking_validation.php:130
+msgctxt "validation"
+msgid "Invalid Phone."
+msgstr "Numéro de téléphone incorrect."
+
+#: includes/admin/booking/Booking_validation.php:137
+#: includes/admin/booking/Booking_validation.php:148
+#: includes/admin/settings/settings.php:132
+msgctxt "validation"
+msgid "We cannot process your request. Please contact us by email or phone."
+msgstr ""
+"Nous ne pouvons pas traiter votre demande. Veuillez nous contacter par email "
+"ou par téléphone."
+
+#: includes/admin/client/Client_admin.php:29
+msgctxt "Table clients"
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/client/Client_admin.php:30
+msgctxt "Table clients"
+msgid "Phone"
+msgstr "Téléphone"
+
+#: includes/admin/client/Client_admin.php:31
+msgctxt "Table clients"
+msgid "Bookings"
+msgstr "Réservations"
+
+#: includes/admin/client/Client_edit.php:19
+msgid "Client data"
+msgstr "Données client"
+
+#: includes/admin/client/Client_edit.php:20
+#: includes/admin/restaurant/Restaurant_edit.php:111
+msgid "Bookings"
+msgstr "Réservations"
+
+#: includes/admin/client/Client_edit.php:82
+msgctxt "Metabox"
+msgid "List of bookings for"
+msgstr "Liste des réservations pour"
+
+#: includes/admin/client/Client_edit.php:85
+msgctxt "Client edit"
+msgid "No bookings yet!"
+msgstr "Pas de réservation pour le moment!"
+
+#: includes/admin/client/Client_edit.php:94
+msgctxt "Client edit"
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/client/Client_edit.php:95
+msgctxt "Client edit"
+msgid "Date"
+msgstr "Date"
+
+#: includes/admin/client/Client_edit.php:96
+msgctxt "Client edit"
+msgid "Party"
+msgstr "Nombre"
+
+#: includes/admin/client/Client_edit.php:97
+msgctxt "Client edit"
+msgid "Status"
+msgstr "Statut"
+
+#: includes/admin/restaurant/Restaurant.php:374
+msgctxt "Create booking"
+msgid "Schedule without name"
+msgstr "Horaire sans nom"
+
+#: includes/admin/restaurant/Restaurant_admin.php:37
+msgctxt "Table restaurants"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin/restaurant/Restaurant_edit.php:29
+msgid "Use our Capacity add-on to create more restaurants."
+msgstr "Utilisez notre extension de capacité pour créer plus de restaurants."
+
+#: includes/admin/restaurant/Restaurant_edit.php:210
+msgctxt "Tabs"
+msgid "General"
+msgstr "General"
+
+#: includes/admin/restaurant/Restaurant_edit.php:211
+msgctxt "Tabs"
+msgid "Schedules"
+msgstr "Horaires"
+
+#: includes/admin/restaurant/Restaurant_edit.php:212
+msgctxt "Tabs"
+msgid "Capacity"
+msgstr "Capacité"
+
+#: includes/admin/restaurant/Restaurant_edit.php:213
+msgctxt "Tabs"
+msgid "Form"
+msgstr "Formulaire"
+
+#: includes/admin/restaurant/Restaurant_edit.php:214
+msgctxt "Tabs"
+msgid "Email"
+msgstr "Email"
+
+#: includes/admin/restaurant/Restaurant_model.php:23
+#: includes/admin/templates/template-general.php:157
+msgid "Sorry, no hours available for date {date} and party {party}."
+msgstr "Désolé, pas d’heures disponibles pour date {date} et nombre {party}."
+
+#: includes/admin/restaurant/Restaurant_model.php:174
+#: includes/admin/templates/template-notifications.php:77
+msgid "You have received a new booking request"
+msgstr "Vous avez reçu une nouvelle demande de réservation"
+
+#: includes/admin/restaurant/Restaurant_model.php:177
+#: includes/admin/templates/template-notifications.php:91
+msgid "You have received a new booking already confirmed"
+msgstr "Vous avez reçu une nouvelle réservation déjà confirmée"
+
+#: includes/admin/restaurant/Restaurant_model.php:217
+msgid "Your booking at {site_name} is pending"
+msgstr "Votre réservation chez {site_name} est en attente"
+
+#: includes/admin/restaurant/Restaurant_model.php:220
+msgid "Your booking at {site_name} has been confirmed"
+msgstr "Votre réservation sur {site_name} a été confirmée"
+
+#: includes/admin/restaurant/Restaurant_model.php:223
+msgid "Your booking at {site_name} has been rejected"
+msgstr "Votre réservation sur {site_name} a été refusée"
+
+#: includes/admin/settings/class-settings.php:24
+#: includes/admin/settings/bak/display-settings.php:12
+msgid "General"
+msgstr "Général"
+
+#: includes/admin/settings/settings.php:116
+msgid "Banned Email Addresses"
+msgstr "Adresses de messagerie bloquées"
+
+#: includes/admin/settings/settings.php:117
+msgid ""
+"Block bookings from specific email addresses. Enter each email address on a "
+"separate line."
+msgstr ""
+"Bloquer les réservations d’adresses e-mail spécifiques. Entrez chaque "
+"adresse email sur une ligne séparée."
+
+#: includes/admin/settings/settings.php:122
+msgid "Banned IP Addresses"
+msgstr "Adresses IP bloquées"
+
+#: includes/admin/settings/settings.php:123
+msgid ""
+"Block bookings from specific IP addresses. Enter each IP address on a "
+"separate line."
+msgstr ""
+"Bloquer les réservations d’adresses IP spécifiques. Entrez chaque adresse IP "
+"sur une ligne séparée."
+
+#: includes/admin/settings/settings.php:128
+msgid "Banned Message"
+msgstr "Message bloqué"
+
+#: includes/admin/settings/settings.php:129
+msgid "Show this message when user is banned"
+msgstr "Afficher ce message lorsque l’utilisateur est banni"
+
+#: includes/admin/settings/settings.php:231
+msgid "Settings updated."
+msgstr "Paramètres mis à jour."
+
+#: includes/admin/settings/settings.php:247
+#, php-format
+msgid "The callback function for setting <strong>%s</strong> is missing."
+msgstr ""
+"La fonction de rappel pour définir <strong>% s </ strong> est manquante."
+
+#: includes/admin/settings/settings.php:376
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: includes/admin/settings/settings.php:381
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: includes/admin/settings/settings.php:385
+msgid "Enter a license and save before activating."
+msgstr "Entrez une licence et sauvegardez-la avant de l’activer."
+
+#: includes/admin/templates/template-components.php:47
+msgctxt "settings"
+msgid "Dates from"
+msgstr "Date de"
+
+#: includes/admin/templates/template-components.php:48
+msgctxt "settings"
+msgid "to"
+msgstr "à"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:28
+msgid "Create Booking for Restaurant:"
+msgstr "Créer une réservation pour un restaurant:"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:30
+msgctxt "Booking create"
+msgid "Will check capacity available before booking."
+msgstr "Vérifie la capacité disponible avant de réserver."
+
+#: includes/admin/templates/template-create-booking-restaurant.php:39
+msgctxt "Booking create admin"
+msgid "Date*"
+msgstr "Date*"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:48
+msgctxt "Booking create admin"
+msgid "Party*"
+msgstr "Nombre*"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:61
+msgctxt "Booking create admin"
+msgid "Time*"
+msgstr "Horaire*"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:73
+msgctxt "Booking create admin"
+msgid "Name*"
+msgstr "Nom*"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:91
+msgctxt "Booking create admin"
+msgid "Email*"
+msgstr "Email*"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:98
+msgctxt "Booking create admin"
+msgid "Phone*"
+msgstr "Téléphone*"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:110
+msgctxt "Booking create admin"
+msgid "Message"
+msgstr "Message"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:122
+msgctxt "Booking create admin"
+msgid "Status*"
+msgstr "Statut*"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:136
+msgctxt "Booking create admin"
+msgid "Send email to customer"
+msgstr "Envoyer un email au client"
+
+#: includes/admin/templates/template-create-booking-restaurant.php:147
+msgctxt "from"
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: includes/admin/templates/template-create-booking.old.php:36
+msgctxt "Booking"
+msgid "Restaurant"
+msgstr "Restaurant"
+
+#: includes/admin/templates/template-create-booking.old.php:45
+msgctxt "Booking"
+msgid "Date"
+msgstr "Date"
+
+#: includes/admin/templates/template-create-booking.php:11
+msgid "Select the restaurant for the booking:"
+msgstr "Sélectionnez le restaurant pour la réservation:"
+
+#: includes/admin/templates/template-create-booking.php:15
+msgctxt "Create booking"
+msgid "No restaurantes yet. Please create one."
+msgstr "Aucun restaurant enregistré. Merci de bien vouloir en créer un."
+
+#: includes/admin/templates/template-email-tags.php:4
+msgid "*Restaurant name"
+msgstr "*Nom restaurant"
+
+#: includes/admin/templates/template-email-tags.php:5
+msgid "Custom page of the restaurant (with Add-On capacity)"
+msgstr "Page personnalisée du restaurant (avec capacité supplémentaire)"
+
+#: includes/admin/templates/template-email-tags.php:7
+msgid "*Name of the customer"
+msgstr "* Nom du client"
+
+#: includes/admin/templates/template-email-tags.php:8
+msgid "Email of the customer"
+msgstr "Email du client"
+
+#: includes/admin/templates/template-email-tags.php:10
+msgid "*Number of people booked"
+msgstr "* Nombre de personnes réservées"
+
+#: includes/admin/templates/template-email-tags.php:11
+msgid "*Date of the booking"
+msgstr "* Date de la réservation"
+
+#: includes/admin/templates/template-email-tags.php:12
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: includes/admin/templates/template-email-tags.php:14
+msgid "Custom fields added to the request"
+msgstr "Champs personnalisés ajoutés à la demande"
+
+#: includes/admin/templates/template-email-tags.php:16
+#: includes/admin/templates/template-email-tags.php:17
+msgid "Name of this website"
+msgstr "Nom de ce website"
+
+#: includes/admin/templates/template-email-tags.php:19
+msgid "Link to the admin panel (only for admin notifications)"
+msgstr ""
+"Lien vers le panneau d’administration (uniquement pour les notifications de "
+"l’administrateur)"
+
+#: includes/admin/templates/template-email-tags.php:20
+msgid "Link to confirm this booking (only for admin notifications)"
+msgstr ""
+"Lien pour confirmer cette réservation (uniquement pour les notifications de "
+"l’administrateur)"
+
+#: includes/admin/templates/template-email-tags.php:21
+msgid "Link to reject this booking (only for admin notifications)"
+msgstr ""
+"Lien pour rejeter cette réservation (uniquement pour les notifications de "
+"l’administrateur)"
+
+#: includes/admin/templates/template-email-tags.php:22
+msgid "Link to cancel this booking (only for admin notifications)"
+msgstr ""
+"Lien pour annuler cette réservation (uniquement pour les notifications de "
+"l’administrateur)"
+
+#: includes/admin/templates/template-email-tags.php:24
+msgid "Current date and time"
+msgstr "Date et heure actuelles"
+
+#: includes/admin/templates/template-general.old.php:16
+#: includes/admin/templates/template-general.php:112
+msgid "Min Party"
+msgstr "Nombre minimum"
+
+#: includes/admin/templates/template-general.old.php:27
+#: includes/admin/templates/template-general.php:113
+msgctxt "Settings"
+msgid "Min party size allowed in the booking form."
+msgstr "Nombre minimum autorisé dans le formulaire de réservation."
+
+#: includes/admin/templates/template-general.old.php:35
+#: includes/admin/templates/template-general.php:119
+msgid "Max Party"
+msgstr "Nombre maximum"
+
+#: includes/admin/templates/template-general.old.php:46
+#: includes/admin/templates/template-general.php:120
+msgctxt "Settings"
+msgid "Max party size allowed in the booking form."
+msgstr "Nombre maximum autorisé dans le formulaire de réservation."
+
+#: includes/admin/templates/template-general.old.php:56
+#: includes/admin/templates/template-general.php:126
+msgid "Early Booking"
+msgstr "Réservation anticipée"
+
+#: includes/admin/templates/template-general.old.php:61
+#: includes/admin/templates/template-general.php:43
+msgctxt "Early booking"
+msgid "From 1 day in advance"
+msgstr "À partir de 1 jour d’avance"
+
+#: includes/admin/templates/template-general.old.php:62
+#: includes/admin/templates/template-general.php:44
+msgctxt "Early booking"
+msgid "From 2 days in advance"
+msgstr "À partir de 2 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:63
+#: includes/admin/templates/template-general.php:45
+msgctxt "Early booking"
+msgid "From 3 days in advance"
+msgstr "À partir de 3 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:64
+#: includes/admin/templates/template-general.php:46
+msgctxt "Early booking"
+msgid "From 4 days in advance"
+msgstr "À partir de 4 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:65
+#: includes/admin/templates/template-general.php:47
+msgctxt "Early booking"
+msgid "From 5 days in advance"
+msgstr "À partir de 5 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:66
+#: includes/admin/templates/template-general.php:48
+msgctxt "Early booking"
+msgid "From 6 days in advance"
+msgstr "À partir de 6 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:67
+#: includes/admin/templates/template-general.php:49
+msgctxt "Early booking"
+msgid "From 7 days in advance"
+msgstr "À partir de 7 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:68
+#: includes/admin/templates/template-general.php:50
+msgctxt "Early booking"
+msgid "From 14 days in advance"
+msgstr "À partir de 14 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:69
+#: includes/admin/templates/template-general.php:51
+msgctxt "Early booking"
+msgid "From 30 days in advance"
+msgstr "À partir de 30 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:70
+#: includes/admin/templates/template-general.php:52
+msgctxt "Early booking"
+msgid "From 90 days in advance"
+msgstr "À partir de 90 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:71
+#: includes/admin/templates/template-general.php:53
+msgctxt "Early booking"
+msgid "From 180 days in advance"
+msgstr "À partir de 180 jours à l’avance"
+
+#: includes/admin/templates/template-general.old.php:84
+#: includes/admin/templates/template-general.php:127
+msgctxt "Settings"
+msgid "How early customers can make their booking."
+msgstr "A partir de quel moment les clients peuvent faire leur réservations."
+
+#: includes/admin/templates/template-general.old.php:94
+#: includes/admin/templates/template-general.php:133
+msgid "Late Booking"
+msgstr "Réservation tardive"
+
+#: includes/admin/templates/template-general.old.php:99
+#: includes/admin/templates/template-general.php:60
+msgctxt "Late booking"
+msgid "Up to the last minute"
+msgstr "Jusqu’à la dernière minute"
+
+#: includes/admin/templates/template-general.old.php:100
+#: includes/admin/templates/template-general.php:61
+msgctxt "Late booking"
+msgid "At least 15 minutes in advance"
+msgstr "Au moins 15 minutes à l’avance"
+
+#: includes/admin/templates/template-general.old.php:101
+#: includes/admin/templates/template-general.php:62
+msgctxt "Late booking"
+msgid "At least 30 minutes in advance"
+msgstr "Au moins 30 minutes à l’avance"
+
+#: includes/admin/templates/template-general.old.php:102
+#: includes/admin/templates/template-general.php:63
+msgctxt "Late booking"
+msgid "At least 45 minutes in advance"
+msgstr "Au moins 45 minutes à l’avance"
+
+#: includes/admin/templates/template-general.old.php:103
+#: includes/admin/templates/template-general.php:64
+msgctxt "Late booking"
+msgid "At least 1 hour in advance"
+msgstr "Au moins 1 heure à l’avance"
+
+#: includes/admin/templates/template-general.old.php:104
+#: includes/admin/templates/template-general.php:65
+msgctxt "Late booking"
+msgid "At least 2 hours in advance"
+msgstr "Au moins 2 heures à l’avance"
+
+#: includes/admin/templates/template-general.old.php:105
+#: includes/admin/templates/template-general.php:66
+msgctxt "Late booking"
+msgid "At least 3 hours in advance"
+msgstr "Au moins 3 heures à l’avance"
+
+#: includes/admin/templates/template-general.old.php:106
+#: includes/admin/templates/template-general.php:67
+msgctxt "Late booking"
+msgid "At least 4 hours in advance"
+msgstr "Au moins 4 heures à l’avance"
+
+#: includes/admin/templates/template-general.old.php:107
+#: includes/admin/templates/template-general.php:68
+msgctxt "Late booking"
+msgid "At least 24 hours in advance"
+msgstr "Au moins 24 heures à l’avance"
+
+#: includes/admin/templates/template-general.old.php:108
+msgctxt "Late booking"
+msgid "Booking from same day"
+msgstr "Réservation à partir du même jour"
+
+#: includes/admin/templates/template-general.old.php:109
+#: includes/admin/templates/template-general.php:69
+msgctxt "Late booking"
+msgid "At least from the day before"
+msgstr "Au moins de la veille"
+
+#: includes/admin/templates/template-general.old.php:110
+#: includes/admin/templates/template-general.php:70
+msgctxt "Late booking"
+msgid "At least from the 2 days before"
+msgstr "Au moins à partir des 2 jours précédents"
+
+#: includes/admin/templates/template-general.old.php:111
+#: includes/admin/templates/template-general.php:71
+msgctxt "Late booking"
+msgid "At least from the 3 days before"
+msgstr "Au moins 3 jours avant"
+
+#: includes/admin/templates/template-general.old.php:123
+#: includes/admin/templates/template-general.php:134
+msgctxt "Settings"
+msgid "How late customers can make their booking."
+msgstr "Comment les clients en retard peuvent faire leur réservation."
+
+#: includes/admin/templates/template-general.old.php:133
+#: includes/admin/templates/template-general.php:141
+msgid "Form Date Format"
+msgstr "Format de date de formulaire"
+
+#: includes/admin/templates/template-general.old.php:155
+#: includes/admin/templates/template-general.php:142
+msgctxt "Settings"
+msgid "Change date format used in the booking form."
+msgstr "Changer le format de date utilisé dans le formulaire de réservation."
+
+#: includes/admin/templates/template-general.old.php:165
+#: includes/admin/templates/template-general.php:148
+msgid "First Day of the Week"
+msgstr "Premier jour de la semaine"
+
+#: includes/admin/templates/template-general.old.php:171
+#: includes/admin/templates/template-general.php:94
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: includes/admin/templates/template-general.old.php:172
+#: includes/admin/templates/template-general.php:95
+msgid "Monday"
+msgstr "Lundi"
+
+#: includes/admin/templates/template-general.old.php:184
+#: includes/admin/templates/template-general.php:149
+msgctxt "Settings"
+msgid "Select first day of the week."
+msgstr "Sélectionnez le premier jour de la semaine."
+
+#: includes/admin/templates/template-general.old.php:208
+msgid "Redirect Page (Success)"
+msgstr "Page de redirection (succès)"
+
+#: includes/admin/templates/template-general.old.php:213
+#: includes/admin/templates/template-general.old.php:238
+#: includes/admin/templates/template-general.php:102
+msgid "None"
+msgstr "Aucun"
+
+#: includes/admin/templates/template-general.old.php:223
+#: includes/admin/templates/template-general.php:168
+msgctxt "Settings"
+msgid "Select the page to redirect after the booking is submitted."
+msgstr "Sélectionnez la page à rediriger une fois la réservation soumise."
+
+#: includes/admin/templates/template-general.old.php:233
+msgid "Redirect Page (Not available)"
+msgstr "Page de redirection (non disponible)"
+
+#: includes/admin/templates/template-general.old.php:248
+msgctxt "Settings"
+msgid "Select the page to redirect if not available bookings."
+msgstr ""
+"Sélectionnez la page à rediriger si les réservations ne sont pas disponibles."
+
+#: includes/admin/templates/template-general.php:155
+msgid "Hours not available message"
+msgstr "Message heures non disponibles"
+
+#: includes/admin/templates/template-general.php:156
+msgctxt "Settings"
+msgid ""
+"Enter the message to display when there are no available hours. <br>You can "
+"use the tags {date} and {party}"
+msgstr ""
+"Entrez le message à afficher lorsqu’il n’y a pas d’heures disponibles. <br> "
+"Vous pouvez utiliser les tags {date} et {party}"
+
+#: includes/admin/templates/template-general.php:161
+msgid "Pending Message"
+msgstr "Message En attente"
+
+#: includes/admin/templates/template-general.php:162
+msgctxt "Settings"
+msgid ""
+"Enter the message to display when a booking request is made. <br>You can use "
+"the tag {booking_details} to display the booking data to the user."
+msgstr ""
+"Entrez le message à afficher lorsqu’une demande de réservation est faite. "
+"<par> Vous pouvez utiliser la balise {booking_details}} pour afficher les "
+"données de réservation à l’utilisateur."
+
+#: includes/admin/templates/template-general.php:163
+msgid ""
+"Thanks, your booking request is waiting to be confirmed. You will receive "
+"updates in the email address you have provided.{booking_details}"
+msgstr ""
+"Merci, votre demande de réservation est en attente d’être confirmée. Vous "
+"recevrez des mises à jour à l’adresse e-mail que vous avez fournie. "
+"{booking_details}"
+
+#: includes/admin/templates/template-general.php:167
+msgid "Redirect Page (Pending)"
+msgstr "Page de redirection (en attente)"
+
+#: includes/admin/templates/template-general.php:174
+msgid "Confirmed Message"
+msgstr "Message confirmé"
+
+#: includes/admin/templates/template-general.php:175
+msgctxt "Settings"
+msgid ""
+"Enter the message to display when a booking is confirmed automatically. "
+"<br>You can use the tag {booking_details} to display the booking data to the "
+"user."
+msgstr ""
+"Entrez le message à afficher lorsqu’une réservation est confirmée "
+"automatiquement. <br> Vous pouvez utiliser la balise {booking_details} pour "
+"afficher les données de réservation à l’utilisateur."
+
+#: includes/admin/templates/template-general.php:176
+msgid ""
+"Thanks, your booking request has been confirmed.You will receive updates in "
+"the email address you have provided.{booking_details}"
+msgstr ""
+"Merci, votre demande de réservation a été confirmée.Vous recevrez les mises "
+"à jour à l’adresse e-mail que vous avez fournie. {booking_details}"
+
+#: includes/admin/templates/template-general.php:180
+msgid "Redirect Page (Confirmed)"
+msgstr "Page de redirection (confirmée)"
+
+#: includes/admin/templates/template-general.php:181
+msgctxt "Settings"
+msgid "Select the page to redirect after the booking is confirmed."
+msgstr "Sélectionnez la page à rediriger une fois la réservation confirmée."
+
+#: includes/admin/templates/template-general.php:187
+msgid "Not available Message"
+msgstr "Message Non disponible"
+
+#: includes/admin/templates/template-general.php:188
+msgctxt "Settings"
+msgid "Enter the message to display when a booking is not available."
+msgstr ""
+"Entrez le message à afficher lorsqu’une réservation n’est pas disponible."
+
+#: includes/admin/templates/template-general.php:189
+msgid ""
+"We cannot process your booking request just now, we don't have available "
+"seats. Please try another date."
+msgstr ""
+"Nous ne pouvons pas traiter votre demande de réservation pour l’instant, "
+"nous n’avons pas de places disponibles. Merci de bien vouloir essayer une "
+"autre date."
+
+#: includes/admin/templates/template-general.php:193
+msgid "Redirect after X seconds"
+msgstr "Rediriger après X secondes"
+
+#: includes/admin/templates/template-general.php:194
+msgctxt "Settings"
+msgid "seconds"
+msgstr "Secondes"
+
+#: includes/admin/templates/template-general.php:206
+msgid "Use this shortcode {shortcode} inside any page content."
+msgstr "Utilisez ce shortcode {shortcode} dans n’importe quel contenu de page."
+
+#: includes/admin/templates/template-general.php:207
+msgid "You can also display a custom page for this restaurant: "
+msgstr ""
+"Vous pouvez également afficher une page personnalisée pour ce restaurant:"
+
+#: includes/admin/templates/template-general.php:212
+msgid ""
+"Use the shortcode {shortcode} inside the content editor to display the form."
+"<br>You can also use it in any other page content."
+msgstr ""
+"Utilisez le shortcode {shortcode} dans l’éditeur de contenu pour afficher le "
+"formulaire. <br> Vous pouvez également l’utiliser dans tout autre contenu de "
+"page."
+
+#: includes/admin/templates/template-notifications.php:21
+msgid "Replay-To Name"
+msgstr "Nom pour Répondre à"
+
+#: includes/admin/templates/template-notifications.php:22
+msgid "The name displayed in the Reply-To field"
+msgstr "Le nom affiché dans le champ Répondre à"
+
+#: includes/admin/templates/template-notifications.php:28
+msgid "Replay-To Email"
+msgstr "Email de Répondre à"
+
+#: includes/admin/templates/template-notifications.php:29
+msgid "The email to be used in the Reply-To field"
+msgstr "Le courrier électronique à utiliser dans le champ Répondre à"
+
+#: includes/admin/templates/template-notifications.php:35
+msgid "Send Email"
+msgstr "Envoyer un email"
+
+#: includes/admin/templates/template-notifications.php:36
+msgid "Send email notification when new booking is requested to admin"
+msgstr ""
+"Envoyer une notification par email quand une nouvelle réservation est "
+"demandée à l’administrateur"
+
+#: includes/admin/templates/template-notifications.php:37
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/templates/template-notifications.php:37
+msgid "No"
+msgstr "Non"
+
+#: includes/admin/templates/template-notifications.php:42
+msgid "Admin Email"
+msgstr "Email de l’administrateur"
+
+#: includes/admin/templates/template-notifications.php:43
+msgid "Where admin notifications should be sent"
+msgstr "Où les notifications de l’administrateur doivent être envoyées"
+
+#: includes/admin/templates/template-notifications.php:57
+msgid "Logo URL"
+msgstr "URL du logo"
+
+#: includes/admin/templates/template-notifications.php:58
+msgid "Logo to be shown at the top of the email (max width 150px)"
+msgstr "Logo à afficher en haut de l’e-mail (largeur maximale 150 pixels)"
+
+#: includes/admin/templates/template-notifications.php:64
+msgid "Template Tags"
+msgstr "Tags de Template"
+
+#: includes/admin/templates/template-notifications.php:65
+msgid ""
+"You can use these tags to add booking information to the email.<br>* you can "
+"use these inside the subject field"
+msgstr ""
+"Vous pouvez utiliser ces balises pour ajouter des informations de "
+"réservation à l’e-mail. <br> * Vous pouvez les utiliser dans le champ Objet."
+
+#: includes/admin/templates/template-notifications.php:73
+msgid "Email sent to the administrator when a new booking is requested."
+msgstr ""
+"Email envoyé à l’administrateur quand une nouvelle réservation est demandée."
+
+#: includes/admin/templates/template-notifications.php:75
+#: includes/admin/templates/template-notifications.php:89
+msgid "Admin Email Subject"
+msgstr "Sujet Email Admin"
+
+#: includes/admin/templates/template-notifications.php:76
+#: includes/admin/templates/template-notifications.php:90
+msgid "Email subject sent to the administrator."
+msgstr "Objet de l’e-mail envoyé à l’administrateur."
+
+#: includes/admin/templates/template-notifications.php:80
+#: includes/admin/templates/template-notifications.php:94
+msgid "Admin Email Content"
+msgstr "Contenu du courrier électronique de l’administrateur"
+
+#: includes/admin/templates/template-notifications.php:81
+msgid ""
+"Email content sent to the administrator when booking has been automatically "
+"confirmed."
+msgstr ""
+"Le contenu du courrier électronique envoyé à l’administrateur lors de la "
+"réservation a été automatiquement confirmé."
+
+#: includes/admin/templates/template-notifications.php:87
+msgid ""
+"Email sent to the administrator when a new booking is automatically "
+"confirmed (Needs capacity add-on)."
+msgstr ""
+"Email envoyé à l’administrateur lorsqu’une nouvelle réservation est "
+"automatiquement confirmée (besoin de capacité add-on)."
+
+#: includes/admin/templates/template-notifications.php:95
+msgid ""
+"Email content sent to the administrator to Confirm/Reject/Cancel booking."
+msgstr ""
+"Contenu du courrier électronique envoyé à l’administrateur pour confirmer / "
+"refuser / annuler la réservation."
+
+#: includes/admin/templates/template-notifications.php:101
+msgid "Email sent to the customer when the booking is Pending."
+msgstr "Email envoyé au client lorsque la réservation est en attente."
+
+#: includes/admin/templates/template-notifications.php:103
+msgid "Pending Email Subject"
+msgstr "Objet du courrier électronique en attente"
+
+#: includes/admin/templates/template-notifications.php:104
+#: includes/admin/templates/template-notifications.php:109
+msgid "The email subject a user will receive when requesting a new booking."
+msgstr ""
+"Le sujet de l’email qu’un utilisateur recevra lors de la demande d’une "
+"nouvelle réservation."
+
+#: includes/admin/templates/template-notifications.php:105
+msgid "is pending"
+msgstr "est en attente"
+
+#: includes/admin/templates/template-notifications.php:108
+msgid "Pending Email"
+msgstr "Email en attente"
+
+#: includes/admin/templates/template-notifications.php:115
+msgid "Email sent to the customer when the booking is Confirmed."
+msgstr "Email envoyé au client lorsque la réservation est confirmée."
+
+#: includes/admin/templates/template-notifications.php:117
+msgid "Confirmed Email Subject"
+msgstr "Sujet de l’e-mail confirmé"
+
+#: includes/admin/templates/template-notifications.php:118
+msgid "The email subject a user will receive the booking is confirmed."
+msgstr ""
+"Le courrier électronique dont un utilisateur recevra la réservation est "
+"confirmé."
+
+#: includes/admin/templates/template-notifications.php:119
+msgid "has been confirmed"
+msgstr "a été confirmé"
+
+#: includes/admin/templates/template-notifications.php:122
+msgid "Confirmed Email"
+msgstr "Email de confirmation"
+
+#: includes/admin/templates/template-notifications.php:123
+msgid "The email content a user will receive the booking has been confirmed."
+msgstr ""
+"Le contenu de l’e-mail qu’un utilisateur recevra lorsque la réservation sera "
+"confirmée."
+
+#: includes/admin/templates/template-notifications.php:129
+msgid "Email sent to the customer when the booking is Rejected."
+msgstr "Email envoyé au client lorsque la réservation est refusée."
+
+#: includes/admin/templates/template-notifications.php:131
+msgid "Rejected Email Subject"
+msgstr "Objet de l’email de refus"
+
+#: includes/admin/templates/template-notifications.php:132
+msgid "The email subject a user will receive the booking has been rejected."
+msgstr ""
+"Le sujet de l’e-mail qu’un utilisateur recevra la réservation a été refusée."
+
+#: includes/admin/templates/template-notifications.php:133
+msgid "has been rejected"
+msgstr "a été refusée"
+
+#: includes/admin/templates/template-notifications.php:136
+msgid "Rejected Email"
+msgstr "Email Refusé"
+
+#: includes/admin/templates/template-notifications.php:137
+msgid "The email content a user will receive the booking has been rejected."
+msgstr ""
+"e contenu de l’email qu’un utilisateur recevra lorsque la réservation sera "
+"refusée."
+
+#: includes/admin/templates/template-notifications.php:143
+msgid ""
+"Custom email subject sent to the customer from the bookings admin panel."
+msgstr ""
+"Objet de l’e-mail personnalisé envoyé au client à partir du panneau "
+"d’administration des réservations."
+
+#: includes/admin/templates/template-notifications.php:145
+msgid "Update Email Subject"
+msgstr "Mettre à jour le sujet de l’email"
+
+#: includes/admin/templates/template-notifications.php:213
+msgid "Upload"
+msgstr "Télécharger"
+
+#: includes/admin/templates/template-schedule-old.php:11
+#: includes/admin/templates/template-schedule.php:12
+msgid "Help"
+msgstr "Aide"
+
+#: includes/admin/templates/template-schedule-old.php:14
+msgid ""
+"Schedule Rules are applied from top to bottom.<br>\n"
+"            Define general rules at top, them specific rules at the bottom."
+"<br>\n"
+"            Second rule will override first rule, etc..<br>\n"
+"            For example create a general rule for all days, then a second "
+"rule for weekends or specific dates."
+msgstr ""
+"Les règles de planification sont appliquées de haut en bas. <br>\n"
+"             Définissez les règles générales en haut, les règles spécifiques "
+"en bas. <br>\n"
+"             La deuxième règle remplacera la première règle, etc. <br>\n"
+"             Par exemple, créez une règle générale pour tous les jours, puis "
+"une deuxième règle pour les week-ends ou des dates spécifiques."
+
+#: includes/admin/templates/template-schedule-old.php:33
+msgctxt "settings"
+msgid "Apply"
+msgstr "Appliquer"
+
+#: includes/admin/templates/template-schedule-old.php:34
+#: includes/admin/templates/template-schedule.php:38
+msgctxt "settings"
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/templates/template-schedule-old.php:34
+#: includes/admin/templates/template-schedule.php:38
+msgctxt "settings"
+msgid "No"
+msgstr "Non"
+
+#: includes/admin/templates/template-schedule-old.php:37
+msgctxt "settings"
+msgid "State"
+msgstr "Etat"
+
+#: includes/admin/templates/template-schedule-old.php:38
+#: includes/admin/templates/template-schedule.php:132
+msgctxt "settings"
+msgid "Opened"
+msgstr "Ouvert"
+
+#: includes/admin/templates/template-schedule-old.php:38
+#: includes/admin/templates/template-schedule.php:132
+msgctxt "settings"
+msgid "Closed"
+msgstr "Fermé"
+
+#: includes/admin/templates/template-schedule-old.php:41
+msgctxt "settings"
+msgid "Capacity"
+msgstr "Capacité"
+
+#: includes/admin/templates/template-schedule-old.php:43
+#: includes/admin/templates/template-schedule.php:195
+msgctxt "settings"
+msgid "Unlimited"
+msgstr "Illimité"
+
+#: includes/admin/templates/template-schedule-old.php:44
+msgctxt "settings"
+msgid "Total Capacity"
+msgstr "Capacité totale"
+
+#: includes/admin/templates/template-schedule-old.php:45
+msgctxt "settings"
+msgid "Number of Tables"
+msgstr "Nombre de tables"
+
+#: includes/admin/templates/template-schedule-old.php:46
+msgctxt "settings"
+msgid "Defined Tables"
+msgstr "Tables définies"
+
+#: includes/admin/templates/template-schedule-old.php:63
+#: includes/admin/templates/template-schedule.php:55
+#: includes/admin/templates/template-schedule.php:159
+msgctxt "settings"
+msgid "All Day"
+msgstr "Tous les jours"
+
+#: includes/admin/templates/template-schedule-old.php:68
+#: includes/admin/templates/template-schedule.php:52
+#: includes/admin/templates/template-schedule.php:139
+msgctxt "settings"
+msgid "All Dates"
+msgstr "Toutes les dates"
+
+#: includes/admin/templates/template-schedule-old.php:80
+#: includes/admin/templates/template-schedule.php:84
+msgctxt "settings"
+msgid "Add Schedule"
+msgstr "Ajouter un horaire"
+
+#: includes/admin/templates/template-schedule.php:17
+msgid ""
+"Schedule Rules are applied from top to bottom.<br>\n"
+"            Define general rules at top, then specific rules at the bottom."
+"<br>\n"
+"            Second rule will override first rule, etc..<br>\n"
+"            <small>For example you can create a general rule for all days,"
+"<br>\n"
+"            then a second rule for weekends or specific dates.</small>"
+msgstr ""
+"Les règles de planification sont appliquées de haut en bas. <br>\n"
+"             Définissez les règles générales en haut, puis les règles "
+"spécifiques en bas. <br>\n"
+"             La deuxième règle remplacera la première règle, etc. <br>\n"
+"             <small> Par exemple, vous pouvez créer une règle générale pour "
+"tous les jours, <br>\n"
+"             puis une deuxième règle pour les week-ends ou des dates "
+"spécifiques. </small>"
+
+#: includes/admin/templates/template-schedule.php:56
+msgctxt "settings"
+msgid "Specific hours"
+msgstr "Heures spécifiques"
+
+#: includes/admin/templates/template-schedule.php:90
+msgid ""
+"You can check the rules here, please insert some date and press the button."
+msgstr ""
+"Vous pouvez vérifier les règles ici, veuillez insérer une date et appuyer "
+"sur le bouton."
+
+#: includes/admin/templates/template-schedule.php:94
+msgid "CHECK"
+msgstr "VÉRIFIER"
+
+#: includes/admin/templates/template-schedule.php:110
+msgctxt "settings"
+msgid "name"
+msgstr "nom"
+
+#: includes/admin/templates/template-schedule.php:114
+msgid "Dates"
+msgstr "Dates"
+
+#: includes/admin/templates/template-schedule.php:116
+msgid "Capacity"
+msgstr "Capacité"
+
+#: includes/admin/templates/template-schedule.php:117
+msgid "Notifications"
+msgstr "Notifications"
+
+#: includes/admin/templates/template-schedule.php:120
+msgid "Payment"
+msgstr "Paiement"
+
+#: includes/admin/templates/template-schedule.php:150
+msgctxt "Time type"
+msgid "Use Time Interval"
+msgstr "Utiliser l’intervalle de temps"
+
+#: includes/admin/templates/template-schedule.php:151
+msgctxt "Time type"
+msgid "Use Specific Hours"
+msgstr "Utiliser des heures spécifiques"
+
+#: includes/admin/templates/template-schedule.php:164
+msgctxt "settings"
+msgid "Allow Booking every "
+msgstr "Autoriser les réservations tous les "
+
+#: includes/admin/templates/template-schedule.php:176
+msgid "ADD"
+msgstr "AJOUTER"
+
+#: includes/admin/templates/template-schedule.php:191
+msgctxt "settings"
+msgid "Limit Capacity based on "
+msgstr "Capacité limite basée sur "
+
+#: includes/admin/settings/bak/display-settings.php:11
+msgid "License"
+msgstr "License"
+
+#. Name of the plugin
+msgid "Quick Restaurant Reservations"
+msgstr ""
+
+#. Description of the plugin
+msgid "Restaurant manager for reservations"
+msgstr "Directeur de restaurant pour les réservations"
+
+#. URI of the plugin
+msgid "http://thingsforrestaurants.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Alejandro Pascual"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://elapsl.com"
+msgstr ""
